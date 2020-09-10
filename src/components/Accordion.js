@@ -4,6 +4,7 @@ const Accordion = ({ items }) => {
   const renderedItems = items.map(item => {
     return <div>
        <div className="title active">
+     </div>
     </div>
   });
 
