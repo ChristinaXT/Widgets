@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Accordion = ({ items }) => {
-  const renderedItems = items.map(item => {
+  const renderedItems = items.map((item, index) => {
     return (
         <React.Fragment key={item.title}>
          <div
