@@ -7,7 +7,7 @@ const Accordion = ({ items }) => {
          <div
            className="title active"
            onClick={() => console.log('Title clicked', index)}
-           >
+         >
 
 
            <i className="dropdown icon"></i>
