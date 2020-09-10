@@ -13,7 +13,8 @@ const Accordion = ({ items }) => {
     </div>
   });
 
-  return <h1>{items.length}</h1>;
+  return <div className="ui styled accordion">
+  
 };
 
 export default Accordion;
