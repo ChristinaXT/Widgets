@@ -19,7 +19,7 @@ const items = [
 export default () => {
   return (
     <div>
-      <Accordion />
+      <Accordion items={items}/>
     </div>
   );
 };
