@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Accordion = ({ items }) => {
+  const onTitleClick = () => {
+
+  };
+
   const renderedItems = items.map((item, index) => {
     return (
         <React.Fragment key={item.title}>
