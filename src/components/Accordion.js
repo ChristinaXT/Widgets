@@ -4,6 +4,8 @@ const Accordion = ({ items }) => {
   const renderedItems = items.map(item => {
     return <div>
        <div className="title active">
+       <i className="dropdown icon"></i>
+       {item.title}
      </div>
     </div>
   });
