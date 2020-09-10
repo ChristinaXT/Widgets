@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Accordion = ({ items }) => {
-  const onTitleClick = () => {
-
+  const onTitleClick = (index) => {
+    console.log('Title clicked', index);
   };
 
   const renderedItems = items.map((item, index) => {
