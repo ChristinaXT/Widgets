@@ -10,7 +10,7 @@ const Accordion = ({ items }) => {
      <div className="content active">
         <p>{item.content}</p>
      </div>
-    </div>
+    </React.Fragment>
   });
 
   return <div className="ui styled accordion">
