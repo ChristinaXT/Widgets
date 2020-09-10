@@ -6,7 +6,7 @@ const Accordion = ({ items }) => {
         <React.Fragment key={item.title}>
          <div
            className="title active"
-           onClick={() => console.log('Title clicked')}
+           onClick={() => console.log('Title clicked', index)}
            >
 
 
