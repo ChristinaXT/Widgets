@@ -8,7 +8,11 @@ const Search = () => {
        <div className="ui form">
          <div className="field">
            <label>Enter Search Term</label>
-           <input className="input" />
+           <input
+             value={term}
+             onChange={e => setTerm()}
+             className="input"
+          />
          </div>
       </div>
     </div>
