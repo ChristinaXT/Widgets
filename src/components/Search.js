@@ -3,7 +3,9 @@ import React, { useState, useEffect } from 'react';
 const Search = () => {
   const [term, setTerm] = useState('');
 
+     useEffect(() => {
 
+     });
 
   return (
     <div>
