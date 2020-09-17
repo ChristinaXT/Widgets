@@ -10,7 +10,7 @@ const Search = () => {
            <label>Enter Search Term</label>
            <input
              value={term}
-             onChange={e => setTerm()}
+             onChange={e => setTerm(e.target.value)}
              className="input"
           />
          </div>
