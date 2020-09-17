@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 const Search = () => {
   const [term, setTerm] = useState('');
 
+//everytime you use useEffect, you are going to use an empty array, an array with a value inside of it or nothing at all
      useEffect(() => {
 
      });
