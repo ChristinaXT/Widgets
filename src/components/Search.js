@@ -7,9 +7,8 @@ const Search = () => {
          <div className="field">
            <label>Enter Search Term</label>
          </div>
-      </div>   
+      </div>
     </div>
-
   );
 };
 
