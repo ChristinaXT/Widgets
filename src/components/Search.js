@@ -4,8 +4,10 @@ const Search = () => {
   return (
     <div>
        <div className="ui form">
-       <div className="field">
-       <label>Enter Search Term</label>
+         <div className="field">
+           <label>Enter Search Term</label>
+         </div>
+      </div>   
     </div>
 
   );
