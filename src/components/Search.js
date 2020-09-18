@@ -26,7 +26,13 @@ const Search = () => {
      }, [term]);
 
      const renderResults = results.map((results) => {
-
+        return (
+          <div className="item">
+            <div className="content">
+             <div className="header">
+             </div>
+           </div>
+        </div>
      });
 
   return (
