@@ -20,7 +20,7 @@ console.log(results);
            },
          });
 
-         setResults(data);
+         setResults(data.query.search);
        };
 
 
