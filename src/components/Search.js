@@ -9,7 +9,8 @@ const Search = () => {
        const search = async () => {
          await axios.get('abcd');
        };
-       
+
+       search();
      }, [term]);
 
   return (
