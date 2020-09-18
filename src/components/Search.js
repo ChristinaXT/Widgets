@@ -25,6 +25,10 @@ const Search = () => {
        search();
      }, [term]);
 
+     const renderResults = results.map((results) => {
+
+     });
+
   return (
     <div>
        <div className="ui form">
