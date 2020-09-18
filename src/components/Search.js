@@ -32,6 +32,7 @@ const Search = () => {
              <div className="header">
                {result.title}
              </div>
+             {result.snippet}
            </div>
         </div>
        );
