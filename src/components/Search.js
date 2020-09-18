@@ -5,10 +5,12 @@ const Search = () => {
   const [term, setTerm] = useState('');
   const [results, setResults] = useState([]);
 
+
+console.log(results);
 //everytime you use useEffect, you are going to use an empty array, an array with a value inside (one or more elements) of it or nothing at all
      useEffect(() => {
        const search = async () => {
-         const { data } = await axios.get('https://en.wikipedia.org/w/api/php', {
+         const { data } = await axios.get('https://en.wikipedia.org/w/api.php', {
            params: {
              action: 'query',
              list: 'search' ,
@@ -17,11 +19,13 @@ const Search = () => {
              srsearch: term,
            },
          });
-         
+
          setResults(data);
        };
 
+     if (term) {
        search();
+       }
      }, [term]);
 
   return (
