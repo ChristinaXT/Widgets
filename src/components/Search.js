@@ -49,10 +49,10 @@ const Search = () => {
              className="input"
           />
          </div>
-      </div>
-      <div className="ui celled list">
+        </div>
+       <div className="ui celled list">
         {renderedResults}
-    </div>
+     </div>
     </div>
   );
 };
