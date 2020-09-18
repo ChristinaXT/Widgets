@@ -7,7 +7,7 @@ const Search = () => {
 //everytime you use useEffect, you are going to use an empty array, an array with a value inside (one or more elements) of it or nothing at all
      useEffect(() => {
        const search = async () => {
-         await axios.get('abcd');
+         await axios.get('https://en.wikipedia.org/w/api/php');
        };
 
        search();
