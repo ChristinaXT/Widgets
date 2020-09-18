@@ -17,9 +17,9 @@ const Search = () => {
              srsearch: term,
            },
          });
+         
+         setResults(data);
        };
-
-       setResults(data);
 
        search();
      }, [term]);
