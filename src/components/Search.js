@@ -50,6 +50,8 @@ const Search = () => {
           />
          </div>
       </div>
+      <div className="ui called list">
+        {}
     </div>
   );
 };
