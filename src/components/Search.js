@@ -6,7 +6,7 @@ const Search = () => {
   const [results, setResults] = useState([]);
 
 
-console.log(results);
+
 //everytime you use useEffect, you are going to use an empty array, an array with a value inside (one or more elements) of it or nothing at all
      useEffect(() => {
        const search = async () => {
