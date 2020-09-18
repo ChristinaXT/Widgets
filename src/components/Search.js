@@ -50,7 +50,7 @@ const Search = () => {
           />
          </div>
       </div>
-      <div className="ui called list">
+      <div className="ui celled list">
         {renderedResults}
     </div>
   );
