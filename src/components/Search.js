@@ -33,6 +33,7 @@ const Search = () => {
              </div>
            </div>
         </div>
+       );
      });
 
   return (
