@@ -23,9 +23,8 @@ console.log(results);
          setResults(data);
        };
 
-     if (term) {
+
        search();
-       }
      }, [term]);
 
   return (
