@@ -9,7 +9,6 @@ const Search = () => {
        (async () => {
          await axios.get('asa');
        })();
-
      }, [term]);
 
   return (
