@@ -30,7 +30,7 @@ const Search = () => {
           <div className="item">
             <div className="content">
              <div className="header">
-               {results.title}
+               {result.title}
              </div>
            </div>
         </div>
