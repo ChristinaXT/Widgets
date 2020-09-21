@@ -30,7 +30,7 @@ const Search = () => {
 
      useEffect(() => {
        return () => {
-
+         console.log('CLEANUP');
        };
      }, [term]);
 
