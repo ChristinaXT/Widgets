@@ -28,13 +28,7 @@ const Search = () => {
      //   }, 500);
      // }, [term]);
 
-     useEffect(() => {
-      console.log('Initial render or term was changed');
-      
-       return () => {
-         console.log('CLEANUP');
-       };
-     }, [term]);
+     
 
      const renderedResults = results.map((result) => {
         return (
