@@ -29,6 +29,8 @@ const Search = () => {
      // }, [term]);
 
      useEffect(() => {
+      console.log('Initial render or term was changed');
+      
        return () => {
          console.log('CLEANUP');
        };
