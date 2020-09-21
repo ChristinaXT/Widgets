@@ -23,9 +23,9 @@ const Search = () => {
 
        setTimeout(() => {
          if (term) {
-         search();
+           search();
          }
-       } 500);
+       }, 500);
      }, [term]);
 
      const renderedResults = results.map((result) => {
