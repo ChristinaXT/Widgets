@@ -26,7 +26,6 @@ const Search = () => {
          search();
          }
        } 500);
-
      }, [term]);
 
      const renderedResults = results.map((result) => {
