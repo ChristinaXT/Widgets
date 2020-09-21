@@ -22,11 +22,11 @@ const Search = () => {
        };
 
        setTimeout(() => {
-
+         if (term) {
+         search();
+         }
        });
-       if (term) {
-       search();
-       }
+
      }, [term]);
 
      const renderedResults = results.map((result) => {
