@@ -31,7 +31,7 @@ const Search = () => {
             <div className="right floated content">
               <a
                className="ui button"
-                href={`https://en.wikipedia.org?`}
+                href={`https://en.wikipedia.org?curid`}
                >
                Go
                </a>
