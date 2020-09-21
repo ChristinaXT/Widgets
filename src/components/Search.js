@@ -31,7 +31,7 @@ const Search = () => {
             <div className="right floated content">
               <a
                className="ui button"
-                href={`https`}
+                href={`https://`}
                >
                Go
                </a>
