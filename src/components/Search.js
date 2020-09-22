@@ -12,7 +12,7 @@ const Search = () => {
     }, 1000);
 
     return () => {
-
+      clearTimeout(timerId);
     };
   }, [term]);
 
