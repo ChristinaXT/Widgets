@@ -19,7 +19,7 @@ const Search = () => {
   useEffect(() => {
 
 
-  });
+  }, [debouncedTerm]);
 
      useEffect(() => {
        const search = async () => {
