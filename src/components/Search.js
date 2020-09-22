@@ -33,7 +33,7 @@ const Search = () => {
           clearTimeout(timeoutId);
         };
       }
-     }, [term]);
+    }, [term, results.length]);
 
 
 
