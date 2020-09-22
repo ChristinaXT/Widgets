@@ -10,7 +10,7 @@ const Search = () => {
     const timerId = setTimeout(() => {
 
     }, 1000);
-  })
+  }, [term]);
 
      useEffect(() => {
        const search = async () => {
