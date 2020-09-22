@@ -22,6 +22,8 @@ const Search = () => {
 
       if (term && !results.length) {
         search();
+      } else {
+        
       }
 
        const timeoutId = setTimeout(() => {
