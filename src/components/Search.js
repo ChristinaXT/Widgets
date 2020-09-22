@@ -7,7 +7,9 @@ const Search = () => {
   const [results, setResults] = useState([]);
 
   useEffect(() => {
-    
+    const timerId = setTimeout(() => {
+      
+    })
   })
 
      useEffect(() => {
