@@ -33,7 +33,6 @@ const Search = () => {
      search();
   }, [debouncedTerm]);
 
-    
      const renderedResults = results.map((result) => {
         return (
           <div key={result.pageid} className="item">
