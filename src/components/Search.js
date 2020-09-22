@@ -27,7 +27,7 @@ const Search = () => {
        }, 500);
 
        return () => {
-
+         clearTimeout(timeoutId);
        };
      }, [term]);
 
