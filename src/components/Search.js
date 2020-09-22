@@ -5,7 +5,6 @@ const Search = () => {
   const [term, setTerm] = useState('programming');
   const [results, setResults] = useState([]);
 
-// everytime you use useEffect, you are going to use an empty array, an array with a value inside (one or more elements) of it or nothing at all
      useEffect(() => {
        const search = async () => {
          const { data } = await axios.get('https://en.wikipedia.org/w/api.php', {
