@@ -6,6 +6,10 @@ const Search = () => {
   const [debouncedTerm, setDebouncedTerm] = useState('term');
   const [results, setResults] = useState([]);
 
+  useEffect(() => {
+    
+  })
+
      useEffect(() => {
        const search = async () => {
          const { data } = await axios.get('https://en.wikipedia.org/w/api.php', {
