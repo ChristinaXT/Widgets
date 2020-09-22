@@ -8,8 +8,8 @@ const Search = () => {
 
   useEffect(() => {
     const timerId = setTimeout(() => {
-      
-    })
+
+    }, 1000);
   })
 
      useEffect(() => {
