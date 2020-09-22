@@ -25,6 +25,10 @@ const Search = () => {
            search();
          }
        }, 500);
+
+       return () => {
+
+       };
      }, [term]);
 
 
