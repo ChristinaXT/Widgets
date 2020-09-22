@@ -12,8 +12,8 @@ const Search = () => {
     }, 1000);
 
     return () => {
-      
-    }
+
+    };
   }, [term]);
 
      useEffect(() => {
