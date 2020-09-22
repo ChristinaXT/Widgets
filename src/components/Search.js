@@ -16,6 +16,11 @@ const Search = () => {
     };
   }, [term]);
 
+  useEffect(() => {
+
+
+  });
+
      useEffect(() => {
        const search = async () => {
          const { data } = await axios.get('https://en.wikipedia.org/w/api.php', {
