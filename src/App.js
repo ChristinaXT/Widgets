@@ -22,7 +22,7 @@ const options = [
   {
     label: 'The Color Red',
     value: 'red',
-  }
+  },
 ];
 
 export default () => {
