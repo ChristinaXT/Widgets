@@ -18,7 +18,9 @@ const items = [
   }
 ];
 
-const options
+const options = [
+
+];
 
 export default () => {
   return (
