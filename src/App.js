@@ -21,7 +21,7 @@ const items = [
 export default () => {
   return (
     <div>
-      <Search/>
+      <Dropdown/>
     </div>
   );
 };
