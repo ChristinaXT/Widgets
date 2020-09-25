@@ -29,6 +29,7 @@ const options = [
   },
   {
     label: 'A Shade of Blue',
+    value:
   }
 ];
 
