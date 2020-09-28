@@ -5,8 +5,7 @@ const Dropdown = ({ options }) => {
     return (
 
     );
-
-  })
+  });
 
   return <h1>Dropdown</h1>;
 };
