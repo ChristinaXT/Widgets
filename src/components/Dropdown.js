@@ -13,6 +13,9 @@ const Dropdown = ({ options }) => {
      <div className="ui form">
        <div className="field">
          <label className="label">Select a Color</label>
+         <div className="ui selection dropdown visible active">
+
+        </div>
        </div>
      </div>
   );
