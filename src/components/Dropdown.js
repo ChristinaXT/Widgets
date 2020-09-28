@@ -17,7 +17,7 @@ const Dropdown = ({ options }) => {
            <i className="dropdown icon"></i>
            <div className="text">Select Color</div>
            <div className="menu visible transition">
-           {renderedOptions}
+             {renderedOptions}
            </div>
         </div>
        </div>
