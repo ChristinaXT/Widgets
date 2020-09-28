@@ -12,8 +12,8 @@ const Dropdown = ({ options }) => {
   return (
      <div className="ui form">
        <div className="field">
+         <label className="label"></label>
        </div>
-
      </div>
   );
 };
