@@ -21,7 +21,7 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
         className="item"
         onClick={() => {
           console.log('ITEM CLICKED');
-          onSelectedChange(option)
+          onSelectedChange(option);
         }}
         >
         {option.label}
@@ -36,7 +36,7 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
          <div
          onClick={() => {
            console.log('DROPDOWN CLICKED');
-           setOpen(!open)
+           setOpen(!open);
          }}
          className={`ui selection dropdown ${open ? 'visible active' : ''}`}
          >
