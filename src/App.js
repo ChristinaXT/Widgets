@@ -38,7 +38,7 @@ export default () => {
 
   return (
     <div>
-      <Dropdown options={options} />
+      <Dropdown selected={selected} options={options} />
     </div>
   );
 };
