@@ -34,7 +34,8 @@ const options = [
 ];
 
 export default () => {
-  const [selected, setSelected]
+  const [selected, setSelected] = useState();
+  
   return (
     <div>
       <Dropdown options={options} />
