@@ -6,10 +6,10 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
       <div
         key={option.value}
         className="item">
+        onClick={}
 
-
-         {option.label}
-        </div>
+        {option.label}
+      </div>
     );
   });
 
