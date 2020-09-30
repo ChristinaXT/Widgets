@@ -5,7 +5,7 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
 
   useEffect(() => {
     document.body.addEventListener('click',(event) => {
-
+      console.log(event.target);
      setOpen(false);
     });
   }, []);
