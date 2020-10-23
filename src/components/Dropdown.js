@@ -10,7 +10,6 @@ const Dropdown = ({ options, selected, onSelectedChange }) => {
         return;
       }
 
-
      setOpen(false);
     });
   }, []);
