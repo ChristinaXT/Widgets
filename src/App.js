@@ -35,7 +35,8 @@ const options = [
 
 export default () => {
   const [selected, setSelected] = useState(options[0]);
-  const [showDropdown, setShowDropdown]
+  const [showDropdown, setShowDropdown] = useState(true);
+  
   return (
     <div>
       <Dropdown
