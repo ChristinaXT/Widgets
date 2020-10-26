@@ -40,11 +40,13 @@ export default () => {
   return (
     <div>
       <button onClick={() => setShowDropdown(!showDropdown)}> Toggle DropDown</button>
-      <Dropdown
+    {
+    <Dropdown
         selected={selected}
         onSelectedChange={setSelected}
         options={options}
         />
+    }
     </div>
   );
 };
