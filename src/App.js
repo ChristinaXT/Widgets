@@ -39,7 +39,7 @@ export default () => {
 
   return (
     <div>
-      <button onClick={()}> Toggle DropDown</button>
+      <button onClick={() => }> Toggle DropDown</button>
       <Dropdown
         selected={selected}
         onSelectedChange={setSelected}
