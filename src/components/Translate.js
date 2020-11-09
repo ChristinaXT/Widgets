@@ -20,7 +20,7 @@ const options = [
 const Translate = () => {
   return (
     <div>
-     <Dropdown />
+     <Dropdown options={options} />
     </div>
   );
 };
