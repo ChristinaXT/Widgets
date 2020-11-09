@@ -13,7 +13,52 @@ const options = [
   {
     label: 'Hindi',
     value: 'hi'
-  }
+  },
+  {
+    label: 'Bengali',
+    value: 'bn'
+  },
+  {
+    label: 'Bulgarian',
+    value: 'bg'
+  },
+  {
+    label: 'Chinese',
+    value: 'zh-TW'
+  },
+  {
+    label: 'Danish',
+    value: 'da'
+  },
+  {
+    label: 'Icelandic',
+    value: 'is'
+  },
+  {
+    label: 'Irish',
+    value: 'ga'
+  },
+  {
+    label: 'Japanese',
+    value: 'ja'
+  },
+  {
+    label: 'Latin',
+    value: 'la'
+  },
+  {
+    label: 'Macedonian',
+    value: 'mk'
+  },
+  {
+    label: 'Mongolian',
+    value: 'mn'
+  },
+  {
+    label: 'Punjabi',
+    value: 'pa'
+  },
+  
 ];
 
 
