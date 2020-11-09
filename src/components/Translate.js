@@ -10,7 +10,10 @@ const options = [
     label: 'Arabic',
     value: 'ar'
   },
-  
+  {
+    label: 'Hindi',
+    value: 'hi'
+  }
 ];
 
 
