@@ -18,6 +18,8 @@ const options = [
 
 
 const Translate = () => {
+  const [language, setlanguage] = useState(options[0]);
+  
   return (
     <div>
      <Dropdown options={options} />
