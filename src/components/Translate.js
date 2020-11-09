@@ -6,6 +6,10 @@ const options = [
     label: 'Afrikaans',
     value: 'af'
   },
+  {
+    label: 'Arabic',
+    value: 'ar'
+  },
   
 ];
 
