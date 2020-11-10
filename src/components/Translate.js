@@ -58,8 +58,9 @@ const options = [
     label: 'Punjabi',
     value: 'pa'
   },
-  
+
 ];
+
 
 
 const Translate = () => {
