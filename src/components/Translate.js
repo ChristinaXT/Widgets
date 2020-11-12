@@ -83,9 +83,9 @@ const Translate = () => {
        options={options}
        />
      <hr />
-     <h3>Output</h3>
+     <h3 className="ui header">Output</h3>
+     <Translate />
     </div>
-
   );
 };
 
