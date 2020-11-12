@@ -60,7 +60,62 @@ const options = [
     label: 'Punjabi',
     value: 'pa'
   },
-
+  {
+    label: 'Albanian',
+    value: 'af'
+  },
+  {
+    label: 'Belarusian',
+    value: 'be'
+  },
+  {
+    label: 'Czech',
+    value: 'cs'
+  },
+  {
+    label: 'Georgian',
+    value: 'ka'
+  },
+  {
+    label: 'Hawaiian',
+    value: 'haw'
+  },
+  {
+    label: 'Hebrew',
+    value: 'he'
+  },
+  {
+    label: 'Kinyarwanda',
+    value: 'rw'
+  },
+  {
+    label: 'Russian',
+    value: 'ru'
+  },
+  {
+    label: 'Romanian',
+    value: 'ro'
+  },
+  {
+    label: 'Scots Gaelic',
+    value: 'gd'
+  },
+  {
+    label: 'Swahili',
+    value: 'sw'
+  },
+  {
+    label: 'Tagalog',
+    value: 'tl'
+  },
+  {
+    label: 'Thai',
+    value: 'th'
+  },
+  {
+    label: 'Welsh',
+    value: 'cy'
+  },
 ];
 
 
