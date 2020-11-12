@@ -9,7 +9,7 @@ const Convert = ({ language, text }) => {
         target: language.value,
         key: 'AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM'
       }
-    })
+    });
   }, [language, text]);
 
   return <div></div>;
