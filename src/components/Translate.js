@@ -82,7 +82,10 @@ const Translate = () => {
        onSelectedChange={setLanguage}
        options={options}
        />
+     <hr />
+     <h3>Output</h3>
     </div>
+
   );
 };
 
