@@ -10,6 +10,8 @@ const Convert = ({ language, text }) => {
         key: 'AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM'
       }
     });
+
+    
   }, [language, text]);
 
   return <div></div>;
