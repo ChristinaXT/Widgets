@@ -20,10 +20,15 @@ const Convert = ({ language, text }) => {
 
       setTranslated(data.data.translations[0].translatedText);
     };
+
     doTranslation();
   }, [language, text]);
 
-  return <div></div>;
+  return (
+    <div>
+      <h1 className="ui header">{translated} </h1>
+    </div>
+  );
 
 };
 
