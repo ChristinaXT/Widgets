@@ -3,10 +3,11 @@ import axios from 'axios';
 
 const Convert = ({ language, text }) => {
    const [translated, setTranslated] = useState('');
+   const [debouncedText, setDebouncedText] = useState(text);
 
   useEffect(() => {
     const doTranslation = async () => {
-       const { data } res = await axios.post(
+       const { data } = await axios.post(
         'https://translation.googleapis.com/language/translate/v2',
         {},
         {
