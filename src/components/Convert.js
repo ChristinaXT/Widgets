@@ -5,7 +5,7 @@ const Convert = ({ language, text }) => {
    const [translated, setTranslated] = useState('');
 
   useEffect(() => {
-    const doTranslation = () => {
+    const doTranslation = async () => {
 
     };
 
