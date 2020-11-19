@@ -5,7 +5,8 @@ const Convert = ({ language, text }) => {
    const [translated, setTranslated] = useState('');
 
   useEffect(() => {
-    const
+    const doTranslation = 
+
     axios.post('https://translation.googleapis.com/language/translate/v2', {}, {
       params: {
         q: text,
