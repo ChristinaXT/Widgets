@@ -6,8 +6,8 @@ const Convert = ({ language, text }) => {
    const [debouncedText, setDebouncedText] = useState(text);
 
    useEffect(() => {
-     
-   });
+
+   }, []);
 
   useEffect(() => {
     const doTranslation = async () => {
