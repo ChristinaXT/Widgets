@@ -7,7 +7,7 @@ const Convert = ({ language, text }) => {
 
    useEffect(() => {
 
-   }, []);
+   }, [text]);
 
   useEffect(() => {
     const doTranslation = async () => {
