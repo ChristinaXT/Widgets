@@ -33,7 +33,7 @@ const Convert = ({ language, text }) => {
     };
 
     doTranslation();
-  }, [language, text]);
+  }, [language, debouncedText]);
 
   return (
     <div>
