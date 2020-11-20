@@ -6,7 +6,9 @@ const Convert = ({ language, text }) => {
    const [debouncedText, setDebouncedText] = useState(text);
 
    useEffect(() => {
+     const timerId = setTimeout(() => {
 
+     }, 500);
    }, [text]);
 
   useEffect(() => {
