@@ -52,6 +52,12 @@ const showDropdown = () => {
   }
 };
 
+const showTranslate = () => {
+  if (window.location.pathname === '/translate') {
+    return </Translate />;
+  }
+};
+
 export default () => {
   return <div>{showAccordion()}</div>;
 };
