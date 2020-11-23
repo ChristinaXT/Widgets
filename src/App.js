@@ -35,7 +35,9 @@ const options = [
 ];
 
 const showAccordion = () => {
-  if (window.location.pathname)
+  if (window.location.pathname === '/') {
+    
+  }
 }
 
 export default () => {
