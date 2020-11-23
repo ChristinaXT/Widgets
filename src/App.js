@@ -34,6 +34,10 @@ const options = [
   }
 ];
 
+const showAccordion = () => {
+  
+}
+
 export default () => {
   return (
     <div>
