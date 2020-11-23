@@ -36,13 +36,15 @@ const options = [
 
 const showAccordion = () => {
   if (window.location.pathname === '/') {
-    return <Accordion  items={items} />;
+    return <Accordion items={items} />;
   }
-}
+};
 
 const showList = () => {
-  
-}
+  if (window.location.pathname === '/list') {
+    return <Search />;
+  }
+};
 
 export default () => {
   return <div>{showAccordion()}</div>;
