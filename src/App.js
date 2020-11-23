@@ -41,10 +41,5 @@ const showAccordion = () => {
 }
 
 export default () => {
-  return (
-    <div>
-      {showAccordion()}
-     
-    </div>
-  );
+  return <div>{showAccordion()}</div>;
 };
