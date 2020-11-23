@@ -48,7 +48,7 @@ const showList = () => {
 
 const showDropdown = () => {
   if (window.location.pathname === '/dropdown') {
-    return <Dropdown />
+    return <Dropdown />;
   }
 };
 
