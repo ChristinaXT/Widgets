@@ -17,7 +17,7 @@ const Route = ({ path, children }) => {
       };
     }, []);
 
-   return window.location.pathname === path
+   return currentPath === path
     ? children
     : null;
 };
