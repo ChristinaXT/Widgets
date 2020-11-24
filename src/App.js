@@ -37,7 +37,7 @@ const options = [
 
 const showAccordion = () => {
   if (window.location.pathname === '/') {
-    return <Accordion items={items} />;
+    return <Accordion items={ items } />;
   }
 };
 
@@ -63,7 +63,7 @@ const showTranslate = () => {
 export default () => {
   return <div>
     <Route path="/">
-      <Accordion items={items} />
+      <Accordion items={ items } />
     </Route>
     <Route path="/list">
       <Search />
