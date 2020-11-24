@@ -8,7 +8,7 @@ const Route = ({ path, children }) => {
         console.log('Location Change');
       };
 
-      window.addEventListener('popstate' onLocationChange);
+      window.addEventListener('popstate', onLocationChange);
 
       return () => {
         window.removeEventListener('popstate', onLocationChange);
