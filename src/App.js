@@ -62,9 +62,11 @@ const showTranslate = () => {
 
 export default () => {
   return <div>
-    {showAccordion()}
-    {showList()}
-    {showDropdown()}
-    {showTranslate()}
-  </div>;
+    <Route path="/">
+      <Accordion items={items} />
+    </Route>
+    <Route path="/list">
+      <Search />
+    </Route>
+  </div>
 };
