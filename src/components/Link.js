@@ -3,6 +3,7 @@ import React from 'react';
 const Link = ({ className, href, children }) => {
   const onClick = (event) => {
     event.prevent.default();
+    window.history.pushState({}, '', href);
   };
 
   return (
