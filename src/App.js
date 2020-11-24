@@ -65,6 +65,7 @@ export default () => {
   const [selected, setSelected] = useState(options[0]);
   return (
   <div>
+    <Header />
     <Route path="/">
       <Accordion items={ items } />
     </Route>
