@@ -59,5 +59,10 @@ const showTranslate = () => {
 };
 
 export default () => {
-  return <div>{showAccordion()}</div>;
+  return <div>
+    {showAccordion()}
+    {showList()}
+    {showDropdown()}
+    {showTranslate()}
+  </div>;
 };
