@@ -7,7 +7,6 @@ const Link = ({ className, href, children }) => {
     }
 
 
-
     event.prevent.default();
     window.history.pushState({}, '', href);
 
