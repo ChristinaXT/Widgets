@@ -29,8 +29,8 @@ const Accordion = ({ items }) => {
   return (
   <div className="ui styled accordion accordian-wrapper">
     <h2 className="ui center aligned icon header">
-      <i className="circular sync alternate icon"></i>
-      Friends
+      <i className="rocket icon"></i>
+      Space
     </h2>
      {renderedItems}
     </div>
