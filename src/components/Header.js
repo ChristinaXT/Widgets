@@ -4,7 +4,7 @@ import Link from './Link';
 
 const Header = () => {
    return (
-     <div className="ui secondary pointing menu navbar">
+     <div className="ui secondary pointing menu navbar" style={{backgroundColor: '#eca1a6'}}>
        <Link href="/" className="item item-A">
          Accordion
        </Link>

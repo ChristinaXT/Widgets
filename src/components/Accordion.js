@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const Accordion = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -28,7 +29,7 @@ const Accordion = ({ items }) => {
 
   return (
   <div className="ui styled accordion accordian-wrapper">
-    <h2 className="ui center aligned icon header">
+    <h2 className="ui center aligned icon header" style={{paddingTop: '1em'}}>
       <i className="rocket icon rocket-icon"></i>
       Space
     </h2>

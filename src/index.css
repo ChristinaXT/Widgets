@@ -3,12 +3,41 @@
   margin: auto;
 }
 
-.header {
-  margin: 10px;
-  padding: 1em;
+.accordian-wrapper i {
+  color: #4040a1;
+  -webkit-animation: spin 15s linear 10;
+  -o-animation: spin 15s linear 10;
+  -moz-animation: spin 15s linear 10;
+  animation: spin 15s linear 10;
+}
 
+.accordian-wrapper i:hover {
+  animation-play-state: paused;
 }
 
 .navbar {
-  background-color: #eca1a6;
+  /* background-color: #eca1a6 !important; */
+}
+
+.item-A {
+  background-color: #d6cbd3 !important;
+}
+
+.item-S {
+  background-color: #bdcebe !important;
+}
+
+.item-D {
+  background-color: #e3eaa7 !important;
+}
+
+.item-T {
+  background-color: #4040a1 !important;
+  color: #fff !important;
+}
+
+/* Animations */
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }
