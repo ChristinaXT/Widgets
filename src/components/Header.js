@@ -4,17 +4,17 @@ import Link from './Link';
 
 const Header = () => {
    return (
-     <div className="ui secondary pointing menu nav-bar">
-       <Link href="/" className="item">
+     <div className="ui secondary pointing menu navbar">
+       <Link href="/" className="item item-A">
          Accordion
        </Link>
-       <Link href="/list" className="item">
+       <Link href="/list" className="item item-S">
          Search
        </Link>
-       <Link href="/dropdown" className="item">
+       <Link href="/dropdown" className="item item-D">
          Dropdown
        </Link>
-       <Link href="/translate" className="item">
+       <Link href="/translate" className="item item-T">
          Translate
        </Link>
      </div>

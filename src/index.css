@@ -3,7 +3,12 @@
   margin: auto;
 }
 
-.rocket-icon {
-  padding-top: 1em;
+.header {
+  margin: 10px;
+  padding: 1em;
 
+}
+
+.navbar {
+  background-color: #eca1a6;
 }
