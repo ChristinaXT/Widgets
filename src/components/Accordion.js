@@ -29,7 +29,7 @@ const Accordion = ({ items }) => {
   return (
   <div className="ui styled accordion accordian-wrapper">
     <h2 className="ui center aligned icon header">
-      <i className="rocket icon"></i>
+      <i className="rocket icon rocket-icon"></i>
       Space
     </h2>
      {renderedItems}
