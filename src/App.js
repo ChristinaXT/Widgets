@@ -18,7 +18,24 @@ const items = [
   {
     title: 'Which planet is known as the Morning Star?',
     content: 'Venus'
+  },
+  {
+    title: 'How long is one year on Jupiter?',
+    content: '12 Earth years'
+  },
+  {
+    title: 'Which planets have no moons?',
+    content: 'Mercury and Venus'
+  },
+  {
+    title: 'Phobos and Deimos are the Moons of which planet?',
+    content: 'Mars'
+  },
+  {
+    title: 'Which planets have rings around them?',
+    content: 'Jupiter, Saturn, Uranus, and Neptune'
   }
+
 ];
 
 const options = [
@@ -33,6 +50,18 @@ const options = [
   {
     label: 'A Shade of Blue',
     value: 'blue'
+  },
+  {
+    label: 'The Color Purple',
+    value: 'purple'
+  },
+  {
+    label: 'Sunshine is Yellow',
+    value: 'yellow'
+  },
+  {
+    label: 'Morning is Orange',
+    value: 'orange'
   }
 ];
 
