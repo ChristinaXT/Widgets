@@ -8,16 +8,16 @@ import Header from './components/Header';
 
 const items = [
   {
-    title: 'What is React?',
-    content: 'React is a front end JavaScript framework'
+    title: 'Which is the smallest planet within our solar system?',
+    content: 'Mercury'
   },
   {
-    title: 'Why use React?',
-    content: 'React is a favorite JS Library among engineers'
+    title: 'The moon called Titan orbits which planet?',
+    content: 'Saturn'
   },
   {
-    title: 'How do you use React?',
-    content: 'You use React by creating components'
+    title: 'Which planet is known as the Morning Star?',
+    content: 'Venus'
   }
 ];
 
