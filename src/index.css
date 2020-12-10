@@ -90,13 +90,17 @@
 .select {
   background-color: #f9d5e5 !important;
 }
-/* 
-.option-red:hover {
+
+.dropdown {
+  background-color: #fff2df !important;
+}
+
+/* .option-red:hover {
   background-color: red!important;
   color: white !important;
 }
 
-.option-green:hover {
+ .option-green:hover {
   background-color: green!important;
   color: white !important;
 }
@@ -119,4 +123,4 @@
 .option-orange:hover {
   background-color: orange!important;
   color: white !important;
-} */
+}   */
