@@ -70,7 +70,21 @@
   to {transform:rotate(360deg);}
 }
 
-.search-button{
+.search-button {
   background-color: #c94c4c !important;
   color: #fff !important;
+}
+
+/* .field {
+ background-color: #f4a688 !important;
+} */
+
+.form {
+  background-color: #fbefcc !important;
+}
+
+
+
+.list {
+  background-color: #f9d5e5 !important;
 }
