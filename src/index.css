@@ -22,18 +22,38 @@
 .item-A {
   background-color: #d6cbd3 !important;
 }
+.item-A:hover {
+  background-color: #563f46 !important;
+  color: white !important;
+}
 
 .item-S {
   background-color: #bdcebe !important;
+  color: #fff !important;
+}
+
+.item-S:hover {
+  background-color: #b5e7a0 !important;
+  color: black !important;
 }
 
 .item-D {
   background-color: #e3eaa7 !important;
 }
 
+.item-D:hover {
+  background-color: #82b74b !important;
+  color: white !important;
+}
+
 .item-T {
   background-color: #4040a1 !important;
   color: #fff !important;
+}
+
+.item-T:hover {
+ background-color: #36486b !important;
+ color: black !important;
 }
 
 /* Animations */
