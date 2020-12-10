@@ -1,4 +1,12 @@
 /* Accordian */
+.body {
+  background-color: #feb236 !important;
+}
+
+.accordian-wrapper{
+  background-color: #ffef96 !important;
+}
+
 .accordian-wrapper {
   margin: auto;
 }
@@ -60,4 +68,9 @@
 @keyframes spin {
   from {transform:rotate(0deg);}
   to {transform:rotate(360deg);}
+}
+
+.search-button{
+  background-color: #c94c4c !important;
+  color: #fff !important;
 }

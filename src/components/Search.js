@@ -39,10 +39,10 @@ const Search = () => {
           <div key={result.pageid} className="item">
             <div className="right floated content">
               <a
-               className="ui button"
+               className="ui button search-button"
                 href={`https://en.wikipedia.org?curid=${result.pageid}`}
                >
-               Go
+               Find
                </a>
             </div>
             <div className="content">
