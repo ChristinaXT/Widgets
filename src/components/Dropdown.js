@@ -30,7 +30,7 @@ const Dropdown = ({ label, options, selected, onSelectedChange }) => {
     return (
       <div
         key={option.value}
-        className="item option-red, option-green"
+        className="item option"
         onClick={() => onSelectedChange(option)}
         >
         {option.label}
