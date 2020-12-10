@@ -88,13 +88,16 @@
 }
 
 .dropdown {
-  background-color: #fff2df !important;
+  color: #fefbd8 !important;
+  -webkit-animation: motion 5s linear infinite alternate !important;
+  -o-animation: motion 5s linear infinite alternate !important;
+  -moz-animation: motion 5s linear infinite alternate !important; ;
+  animation: motion 5s linear infinite alternate !important;
 }
 
 .option:hover {
-  /* background: #fff2df !important; */
-  color: #fff !important;
-  -webkit-animation: motion 5s linear infinite alternate !important; 
+  color: #fefbd8 !important;
+  -webkit-animation: motion 5s linear infinite alternate !important;
   -o-animation: motion 5s linear infinite alternate !important;
   -moz-animation: motion 5s linear infinite alternate !important; ;
   animation: motion 5s linear infinite alternate !important;
