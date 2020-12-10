@@ -95,18 +95,18 @@
 
 .dropdown {
   color: #fefbd8 !important;
-  -webkit-animation: motion 5s linear infinite alternate !important;
-  -o-animation: motion 5s linear infinite alternate !important;
-  -moz-animation: motion 5s linear infinite alternate !important; ;
-  animation: motion 5s linear infinite alternate !important;
+  -webkit-animation: motion 15s linear infinite alternate !important;
+  -o-animation: motion 15s linear infinite alternate !important;
+  -moz-animation: motion 15s linear infinite alternate !important; ;
+  animation: motion 15s linear infinite alternate !important;
 }
 
 .option:hover {
   color: #fefbd8 !important;
-  -webkit-animation: motion 5s linear infinite alternate !important;
-  -o-animation: motion 5s linear infinite alternate !important;
-  -moz-animation: motion 5s linear infinite alternate !important; ;
-  animation: motion 5s linear infinite alternate !important;
+  -webkit-animation: motion 15s linear infinite alternate !important;
+  -o-animation: motion 15s linear infinite alternate !important;
+  -moz-animation: motion 15s linear infinite alternate !important; ;
+  animation: motion 15s linear infinite alternate !important;
 }
 
 
@@ -122,21 +122,21 @@
 
 @keyframes motion {
   0% {
-    background: red;
+    background: #c83349;
   }
   20% {
-    background: yellow;
+    background: #ffcc5c;
   }
   40% {
-    background: indigo;
+    background: #622569;
   }
   60% {
-    background: blue;
+    background: #80ced6;
   }
   80% {
-    background: green;
+    background: #82b74b;
   }
   100% {
-    background: skyblue;
+    background: #b7d7e8;
   }
 }
