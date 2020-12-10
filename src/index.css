@@ -81,10 +81,16 @@
   background-color: #f9d5e5 !important;
 }
 
-
+.trans-form {
+  background-color: #d5f4e6 !important;
+}
 
 .select {
   background-color: #f9d5e5 !important;
+}
+
+.output {
+  background-color: #f4a688 !important;
 }
 
 .dropdown {
