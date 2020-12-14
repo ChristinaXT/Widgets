@@ -1,10 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+git clone https://github.com/ChristinaXT/Widgets.git
+
+cd Widgets
+
+Local host 3000
+
+yarn start
+-----------------------------------------------
 This is a 4 tier Widgets App Using React Hooks -
 
 1) Accordian - Space Questions and Answers - (useState) - used onClick  React.Fragment - animated CSS to Rotate Icon rocket
 
-2)Search App with Wikipedia API - React using Hooks (useState and useEffect, axios) - query - JSON format (search any term you like)
+2) Search App with Wikipedia API - React using Hooks (useState and useEffect, axios) - query - JSON format (search any term you like)
 
 3) Dropdown - (useState, useEffect, useRef)  - onSelectedChange -  onBodyClick - renderedOptions - CSS - gradient animation (select a hard coded color)
 
